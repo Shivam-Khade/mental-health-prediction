@@ -1,0 +1,31 @@
+# Virtual Environments
+venv/
+env/
+.env/
+__pycache__/
+*.pyc
+
+# Node Modules
+node_modules/
+npm-debug.log
+
+# Confidential Files & Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+secrets.json
+config.json
+*.key
+*.pem
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Large Data & Model Files (Optional: uncomment if you don't want to push the dataset/model to git)
+# *.pkl
+# *.csv
